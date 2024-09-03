@@ -1,0 +1,614 @@
+/* common css start */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    line-height: .8px;
+}
+
+/* common css end */
+
+/* navabr css start */
+.navbar {
+    padding: 16px 0px;
+}
+
+.navbar {
+    background-color: #1C1E53;
+    align-items: center;
+}
+
+.navbar .navbar-nav .nav-item {
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #BBBBCB;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    color: white;
+}
+
+.navbar .contact a {
+    padding: 16px 48px;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #BBBBCB;
+    border: 2px solid #BBBBCB;
+    border-radius: 41px;
+}
+
+.navbar .contact a:hover {
+    color: white;
+    border: 2px solid white;
+}
+/* navbar css end */
+
+
+/* ============== about css start ============== */
+#about {
+    padding: 128px 0px;
+}
+
+#about .text h5 {
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 500;
+    color: #282938;
+}
+
+#about .text h2 {
+    font-size: 54px;
+    line-height: 74px;
+    font-weight: 600;
+    color: #282938;
+    padding-top: 8px;
+    padding-bottom: 31px;
+}
+
+#about .text h6 {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #282938;
+}
+/* ============== about css end ============== */
+
+
+/* ============== who css start ============== */
+#who {
+    background-color: #F4F5F5;
+}
+
+#who .left-text h5 {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #282938;
+    padding-top: 80px;
+}
+
+#who .left-text h2 {
+    font-size: 38px;
+    line-height: 56px;
+    font-weight: 600;
+    color: #282938;
+    padding-top: 4px;
+    padding-bottom: 16px;
+}
+
+#who .left-text h6 {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #282938;
+    padding-bottom: 80px;
+}
+
+#who .right-text h2 {
+    font-size: 38px;
+    line-height: 56px;
+    font-weight: 600;
+    color: #282938;
+    padding-top: 112px;
+    padding-bottom: 16px;
+}
+
+#who .right-text h6 {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #282938;
+    padding-bottom: 80px;
+}
+/* ============== who css end ============== */
+
+
+/* ============== about css start ============== */
+#process {
+    padding: 128px 0px;
+}
+
+#process .text h2 {
+    font-size: 48px;
+    line-height: 64px;
+    font-weight: 600;
+    color: #282938;
+    padding-bottom: 48px;
+    text-align: center;
+}
+
+#process circel-wrapper {
+    display: flex;
+}
+
+#process .circel {
+    width: 24px;
+    height: 24px;
+    background-color: #2405F2;
+    border-radius: 50%;
+    margin-right: 28px;
+}
+
+#process h3 {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+    color: #282938;
+    padding-top: 32px;
+    padding-bottom: 8px;
+}
+
+#process h6 {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #282938;
+}
+/* ============== process css end ============== */
+
+
+/* ============== about css start ============== */
+#mission {
+    padding: 128px 0px;
+    background-color: #EEF4FA;
+}
+
+#mission .text h5 {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #282938;
+}
+
+#mission .text h2 {
+    font-size: 36px;
+    line-height: 56px;
+    font-weight: 600;
+    color: #282938;
+    padding: 16px 0px;
+}
+
+#mission .text h6 {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #282938;
+    text-align: justify;
+}
+
+#mission .img-left {
+    padding-top: 96px;
+}
+
+#mission .text-right h5 {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #282938;
+    padding-top: 149px;
+}
+
+#mission .text-right h2 {
+    font-size: 36px;
+    line-height: 56px;
+    font-weight: 600;
+    color: #282938;
+    padding: 16px 0px;
+}
+
+#mission .text-right h6 {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #282938;
+    text-align: justify;
+}
+/* ============== mission css end ============== */
+
+
+/* ============== benefits css start ============== */
+#benefits {
+    padding: 128px 0px;
+}
+
+#benefits .img-text-wrapper {
+    background-color: #F4F6FC;
+    padding: 50px 32px 48px 48px;
+    margin-bottom: 48px;
+}
+
+#benefits .img-text-wrapper .img i {
+    color: #2405F2;
+    font-size: 32px;
+}
+
+#benefits .text h2 {
+    font-size: 48px;
+    line-height: 64px;
+    font-weight: 600;
+    color: #282938;
+    text-align: center;
+    width: 630px;
+    margin: auto;
+    padding-bottom: 48px;
+}
+
+#benefits h3 {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+    color: #282938;
+    padding-top: 26px;
+    padding-bottom: 12px;
+}
+
+#benefits h6 {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #282938;
+}
+
+#benefits h4 {
+    font-size: 38px;
+    line-height: 56px;
+    font-weight: 600;
+    color: #282938;
+
+}
+
+#benefits h5 {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #282938;
+}
+
+
+#benefits .logo {
+    text-align: end;
+}
+/* ============== benefits css end ============== */
+
+
+/* ============== team css start ============== */
+#team {
+    background-color: #F4F6FC;
+    padding: 128px 0px;
+}
+
+#team h2 {
+    font-size: 48px;
+    line-height: 64px;
+    font-weight: 600;
+    color: #282938;
+    padding-bottom: 48px;
+    text-align: center;
+}
+
+#team .img-wrapper {
+    text-align: center;
+    background-color: #FFFFFF;
+    padding-top: 48px;
+    padding-bottom: 32px;
+}
+
+#team .img-john {
+    background: url(../images/about-images/john\ smith.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 168px;
+    height: 168px;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+}
+
+#team .img-john::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgb(255, 255, 255), #5239FA);
+    border-radius: 50%;
+    z-index: -1;
+    opacity: 0;
+    transition: all linear .5s;
+}
+
+#team .img-wrapper:hover .img-john::after {
+    opacity: .5;
+}
+
+#team .img-simon {
+    background: url(../images/about-images/simon\ adams.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 168px;
+    height: 168px;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+}
+
+#team .img-simon::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgb(255, 255, 255), #5239FA);
+    border-radius: 50%;
+    z-index: -1;
+    opacity: 0;
+    transition: all linear .5s;
+}
+
+#team .img-wrapper:hover .img-simon::after {
+    opacity: .5;
+}
+
+#team .img-paul {
+    background: url(../images/about-images/paul\ janes.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 168px;
+    height: 168px;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+}
+
+#team .img-paul::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgb(255, 255, 255), #5239FA);
+    border-radius: 50%;
+    z-index: -1;
+    opacity: 0;
+    transition: all linear .5s;
+}
+
+#team .img-wrapper:hover .img-paul::after {
+    opacity: .5;
+}
+
+#team .img-sara {
+    background: url(../images/about-images/sara\ hardin.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 168px;
+    height: 168px;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+}
+
+#team .img-sara::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgb(255, 255, 255), #5239FA);
+    border-radius: 50%;
+    z-index: -1;
+    opacity: 0;
+    transition: all linear .5s;
+}
+
+#team .img-wrapper:hover .img-sara::after {
+    opacity: .5;
+}
+
+#team .img-wrapper:hover .social-media {
+    opacity: 1;
+}
+
+#team .social-media {
+    position: absolute;
+    top: 127px;
+    left: 25%;
+    display: flex;
+    margin: auto;
+    opacity: 0;
+    transition: all linear .5s;
+}
+
+#team .social-media i {
+    width: 13px;
+    height: 13px;
+    color: #fff;
+    margin-left: 11px;
+}
+
+#team h5 {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+    color: #1D2130;
+    padding-top: 30px;
+    padding-bottom: 2px;
+}
+
+#team h6 {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #1D2130;
+}
+/* ============== team css end ============== */
+
+#footer {
+    background-color: #1C1E53;
+    padding-top: 96px;
+}
+
+#footer .left-text h6 {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #FFFFFF;
+    padding-top: 22px;
+    padding-bottom: 86px;
+}
+
+#footer .talk h2 {
+    font-size: 48px;
+    line-height: 64px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+#footer .talk h6 {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #F4F6FC;
+    padding-top: 14px;
+    padding-bottom: 28px;
+}
+
+#footer .social-media {
+    display: flex;
+}
+
+#footer .social-media .smdedia {
+    color: #fff;
+    font-size: 16px;
+    margin-right: 27px;
+}
+
+#footer .email-call-wrapper {
+    display: flex;
+    position: relative;
+    padding: 18px 137px 16px 38px;
+    z-index: 1;
+}
+
+#footer .email-call-wrapper::after {
+    content: '';
+    position: absolute;
+    background-color: #FCD980;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+#footer .footer-email h3 {
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 500;
+    color: #282938;
+}
+
+#footer .footer-email h6 {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #282938;
+}
+
+#footer .footer-call {
+    margin-left: 30px;
+}
+
+#footer .footer-call h3 {
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 500;
+    color: #282938;
+}
+
+#footer .footer-call h6 {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #282938;
+}
+
+#copyright h3 {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #282938;
+    padding: 32px 0px;
+}
+
+#copyright .footer-ul ul {
+    display: flex;
+    padding: 32px 0px;
+}
+
+
+#copyright .footer-ul ul li {
+    padding-left: 30px;
+}
+
+#copyright .footer-ul ul li a {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #282938;
+}

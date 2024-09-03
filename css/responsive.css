@@ -1,0 +1,228 @@
+@media (max-width: 575.98px) {
+
+    .navbar-toggler-icon {
+        background-color: rgb(255, 244, 244);
+    }
+
+    .navbar-toggler-icon:hover {
+        background-color: #FCD980;
+    }
+
+    .navbar-toggler {
+        border: 2px solid #fff;
+    }
+
+    .navbar-toggler:hover {
+        border: 2px solid #FCD980;
+    }
+
+
+    #banner {
+        padding: 60px 0px;
+    }
+
+    #banner .hero-text h1 {
+        font-size: 41px;
+        text-align: center;
+    }
+
+    #banner .hero-text h6 {
+        padding-top: 20px;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+
+    .work-btn {
+        justify-content: center;
+    }
+
+    #banner .work-btn a {
+        padding: 10px 25px;
+    }
+
+    #banner .banner-img img {
+        display: none;
+    }
+
+    #work {
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+
+    #work .touch h3 {
+        margin-bottom: 25px;
+    }
+
+    #work .works{
+        width: 100%;
+    }
+
+    #work .works h6 {
+        text-align: justify;
+        width: 100%;
+    }
+
+    #projects {
+        padding: 60px 0px;
+    }
+
+    #projects .text-wrapper {
+        padding-bottom: 30px;
+    }
+
+    #projects .text-wrapper .text h2 {
+        font-size: 30px;
+    }
+
+    #projects .text-wrapper .view-more h3 {
+        font-size: 12px;
+    }
+
+    #projects .text-wrapper .view-more .right-arrow i {
+        font-size: 16px;
+    }
+
+    #projects .left-side {
+        margin-bottom: 25px;
+    }
+
+    #projects .right-side .top-img {
+        margin: auto;
+    }
+
+
+
+    #projects .right-side .bottom-img {
+        margin: auto;
+    }
+
+    #projects .right-side .bottom-img h2 {
+        margin-top: 25px;
+    }
+
+    #projects .left-side .text h3 {
+        padding-top: 60px;
+        padding-left: 20px;
+        width: 250px;
+    }
+
+    #projects .left-side .text h6 {
+        padding: 16px 0px 20px 20px;
+        width: 250px;
+    }
+
+    #projects .left-side .left-view {
+        padding-bottom: 20px;
+    }
+
+
+    #projects .left-side .left-view h4 {
+        padding-left: 20px;
+
+    }
+
+    #features{
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+
+    #features .text h2 {
+        width: 100%;
+    }
+
+    #testimonials {
+        padding: 60px 0px;
+    }
+
+    #testimonials .t-text h2 {
+        font-size: 35px;
+        line-height: 45px;
+        width: 100%;
+    }
+
+
+    
+    #testimonials .t-text h3 {
+      
+        width: 100%;
+   
+    } 
+
+
+    #testimonials .agency h3 {
+        font-size: 25px;
+        line-height: 35px;
+        margin-top: 15px;
+        text-align: justify;
+        padding-bottom: 20px;
+    }
+
+    #faq {
+        padding: 60px 0px;
+    }
+    
+    #faq h5 {
+        margin-bottom: 30px;
+    }
+
+    #contact {
+        padding: 60px 0px;
+    
+    }
+
+    #contact .contact-right {
+      
+        padding: 60px 48px 48px 60px;
+      
+    }
+
+    #contact .contact-left .contact-left-text {
+        padding: 40px 0px 40px 0px;
+    }
+
+    #contact .contact-left .contact-left-text h2 {
+        font-size: 40px;
+        line-height: 60px;
+        text-align: center;
+    }
+
+    #contact .contact-left .contact-left-text h6 {
+        text-align: justify;
+        width: 100%;
+        margin: auto;
+    }
+
+    #contact .contact-right-text h3 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    #contact .contact-right-text h6 {
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    /* #contact .contact-right-text .cbtn {
+        padding: 12px 161px;
+    } */
+
+    #contact .contact-right .touch h4 {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    #blog {
+        padding: 20px 0px;
+    }
+    
+    #blog .blog h2 {
+        padding-bottom: 35px;
+    }
+
+    #blog .img img{
+        width: 100%;
+    }
+
+    #blog .read{
+        margin-bottom: 20px;
+    }
+}

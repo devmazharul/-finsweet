@@ -1,0 +1,368 @@
+/* common css start */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    /* line-height: .8px; */
+}
+
+/* common css end */
+
+/* navabr css start */
+.navbar {
+    padding: 16px 0px;
+}
+
+/* .navbar .navbar-nav {
+    margin: auto;
+} */
+
+.navbar {
+    background-color: #1C1E53;
+    align-items: center;
+}
+
+.navbar .navbar-nav .nav-item {
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #BBBBCB;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    color: white;
+}
+
+.navbar .contact a {
+    padding: 16px 48px;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #BBBBCB;
+    border: 2px solid #BBBBCB;
+    border-radius: 41px;
+}
+
+.navbar .contact a:hover {
+    color: white;
+    border: 2px solid white;
+}
+
+/* navbar css end */
+
+
+/* price css start */
+#price .text h2 {
+    font-size: 48px;
+    line-height: 64px;
+    font-weight: 600;
+    color: #282938;
+    text-align: center;
+    padding-top: 128px;
+    padding-bottom: 16px;
+}
+
+#price .text h6 {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #282938;
+    width: 562px;
+    margin: auto;
+    padding-bottom: 64px;
+}
+
+#price .price-wrapper {
+    background-color: #F4F6FC;
+    padding: 64px 77px 62px 48px;
+    border-radius: 12px;
+    transition: all linear .5s;
+}
+
+#price .price-wrapper:hover {
+    background-color: #1C1E53;
+    border: 3px slid white;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+#price .price-wrapper:hover::after {
+    content: '';
+    position: absolute;
+    bottom: 155px;
+    left: -90%;
+    width: 1151px;
+    height: 1151px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255, 6%);
+    z-index: -1;
+}
+
+#price .price-wrapper .per-price {
+    display: flex;
+    align-items: center;
+}
+
+#price .price-wrapper:hover .per-price .pd h4 {
+    color: #FCD980;
+}
+
+#price .price-wrapper:hover .per-price h2,
+#price .price-wrapper:hover h3,
+#price .price-wrapper:hover h6,
+#price .price-wrapper:hover .play-wrapper h5,
+#price .price-wrapper:hover .design-text h4 {
+    color: white;
+}
+
+#price .price-wrapper .get-btns {
+    text-align: end;
+}
+
+#price .price-wrapper .get-btns a {
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 600;
+    color: #F4F6FC;
+    background-color: #282938;
+    padding: 16px 77px;
+    border-radius: 41px;
+    margin-top: 50px;
+}
+
+#price .price-wrapper:hover .get-btns a {
+    background-color: #FCD980;
+    color: #282938;
+}
+
+#price .price-wrapper .per-price h2 {
+    font-size: 38px;
+    line-height: 56px;
+    font-weight: 600;
+    color: #282938;
+    padding-right: 8px;
+    margin-bottom: 20px;
+}
+
+#price .price-wrapper .per-price .pd h4 {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #2405F2;
+}
+
+#price .price-wrapper h3 {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+    color: #282938;
+    padding-bottom: 8px;
+}
+
+#price .price-wrapper h6 {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #282938;
+    padding-bottom: 78px;
+}
+
+#price .price-wrapper .design-text h4 {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #282938;
+    padding-bottom: 50px;
+}
+
+#price .play-wrapper {
+    display: flex;
+}
+
+#price .play-wrapper h5 {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #282938;
+    padding-bottom: 20px;
+    padding-left: 12px;
+}
+
+#price .play-wrapper .play i {
+    color: #97DAAD;
+}
+
+/* price css end */
+
+/* faq css start */
+#faq {
+    padding: 128px 0px;
+}
+
+#faq h3 {
+    font-size: 48px;
+    line-height: 64px;
+    font-weight: 600;
+    color: #282938;
+}
+
+#faq h5 {
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 500;
+    color: #2405F2;
+    padding-top: 16px;
+}
+
+#faq .accordion-item h4 span {
+    margin-right: 20px;
+    color: #2405F2;
+}
+
+
+/* faq css end */
+
+
+/* footer css start */
+#footer {
+    background-color: #1C1E53;
+    padding-top: 96px;
+}
+
+#footer .left-text h6 {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #FFFFFF;
+    padding-top: 22px;
+    padding-bottom: 86px;
+}
+
+#footer .talk h2 {
+    font-size: 48px;
+    line-height: 64px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+#footer .talk h6 {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #F4F6FC;
+    padding-top: 14px;
+    padding-bottom: 28px;
+}
+
+#footer .social-media {
+    display: flex;
+}
+
+#footer .social-media .smdedia {
+    color: #fff;
+    font-size: 16px;
+    margin-right: 27px;
+}
+
+#footer .email-call-wrapper {
+    display: flex;
+    position: relative;
+    padding: 18px 137px 16px 38px;
+    z-index: 1;
+}
+
+#footer .email-call-wrapper::after {
+    content: '';
+    position: absolute;
+    background-color: #FCD980;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+#footer .footer-email h3 {
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 500;
+    color: #282938;
+}
+
+#footer .footer-email h6 {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #282938;
+}
+
+#footer .footer-call {
+    margin-left: 30px;
+}
+
+#footer .footer-call h3 {
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 500;
+    color: #282938;
+}
+
+#footer .footer-call h6 {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #282938;
+}
+
+#copyright h3 {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #282938;
+    padding: 32px 0px;
+}
+
+#copyright .footer-ul ul {
+    display: flex;
+    padding: 32px 0px;
+}
+
+/* footer css end */
+
+
+#copyright .footer-ul ul li {
+    padding-left: 30px;
+}
+
+#copyright .footer-ul ul li a {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #282938;
+}
