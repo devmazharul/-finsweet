@@ -63,7 +63,7 @@
     }
 
     #work .works-wrapper .works h4 {
-        font-size: 28px;
+        font-size: 25px;
     }
 
     #projects {
@@ -176,7 +176,7 @@
 
     #contact .contact-right {
       
-        padding: 60px 48px 48px 60px;
+        padding: 60px 48px;
       
     }
 
@@ -211,12 +211,12 @@
     } */
 
     #contact .contact-right .touch h4 {
-        font-size: 15px;
+        font-size: 12px;
         line-height: 25px;
     }
 
     #contact .contact-right-text .cbtn {
-        padding: 16px 95px;
+        padding: 16px 72px;
     }
     #contact .contact-right .touch h4 {
         font-size: 13px;
@@ -245,11 +245,11 @@
     }
 
     #footer .email-call-wrapper {
-        padding: 16px 38px;
+        padding: 16px;
     }
 
     #footer .footer-call h6 {
-        font-size: 15px;
+        font-size: 14px;
     }
     .fa-brands, .fab {
         margin-bottom: 16px;
@@ -261,7 +261,7 @@
     }
 
     #copyright .footer-ul ul li {
-        padding-left: 15px;
+        padding-left: 7px;
     }
 
     #copyright .footer-ul ul {
