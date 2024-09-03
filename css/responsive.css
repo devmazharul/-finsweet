@@ -62,6 +62,10 @@
         width: 100%;
     }
 
+    #work .works-wrapper .works h4 {
+        font-size: 28px;
+    }
+
     #projects {
         padding: 60px 0px;
     }
@@ -210,6 +214,16 @@
         font-size: 15px;
         line-height: 25px;
     }
+
+    #contact .contact-right-text .cbtn {
+        padding: 16px 95px;
+    }
+    #contact .contact-right .touch h4 {
+        font-size: 13px;
+        line-height: 16px;
+    }
+
+
     #blog {
         padding: 20px 0px;
     }
@@ -224,5 +238,33 @@
 
     #blog .read{
         margin-bottom: 20px;
+    }
+
+    #footer .footer-call h3 {
+        font-size: 18px;
+    }
+
+    #footer .email-call-wrapper {
+        padding: 16px 38px;
+    }
+
+    #footer .footer-call h6 {
+        font-size: 15px;
+    }
+    .fa-brands, .fab {
+        margin-bottom: 16px;
+    }
+
+    #copyright h3 {
+        text-align: center;
+      padding-top: 25px;
+    }
+
+    #copyright .footer-ul ul li {
+        padding-left: 15px;
+    }
+
+    #copyright .footer-ul ul {
+        padding: 16px 0px;
     }
 }

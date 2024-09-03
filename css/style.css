@@ -160,10 +160,10 @@ p {
 
 /* work css start */
 #work {
-    /* background-color: #F4F6FC; */
+    background-color: #F4F6FC;
     padding-top: 128px;
     padding-bottom: 80px;
-  
+
 }
 
 #work .works-wrapper {
@@ -220,7 +220,7 @@ p {
     background-color: #2405F2;
     border-radius: 8px;
     position: relative;
-    z-index: -3;
+    z-index: 1;
     overflow: hidden;
 }
 
@@ -250,12 +250,10 @@ p {
 
 #work .one h3 {
     font-size: 18px;
-    line-height: 32px;
     font-weight: 500;
     color: white;
     text-align: center;
     line-height: 50px;
-    z-index: 1;
 }
 
 #work .works-wrapper .works h4 {
@@ -457,7 +455,7 @@ p {
 }
 
 #projects .right-side .bottom-img {
-    background: url(../images/card3_1.png);
+    background: url(../images/card3.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
